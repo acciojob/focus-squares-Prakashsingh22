@@ -1,5 +1,6 @@
 // Select all three squares
-const squares = document.querySelectorAll('.square');
+const squares = document.querySelectorAll(".square");
+
 squares.forEach(square => {
   // When cursor enters a square
   square.addEventListener("mouseenter", () => {
