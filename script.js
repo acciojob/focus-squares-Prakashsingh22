@@ -1,6 +1,5 @@
-//your JS code here. If required.
 // Get all squares
-const squares = document.querySelectorAll('.square');
+const squares = document.querySelectorAll(".square");
 
 squares.forEach((sq) => {
   sq.addEventListener('mouseenter', () => {
